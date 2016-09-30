@@ -343,10 +343,9 @@ void solvea()
 
 int main(int argc, char **argv)
 {
-	FILE *fin = fopen("beijing-subway1.txt", "r");
+	FILE *fin = fopen("beijing-subway.txt", "r");
 	if (init(fin) < 0) {
 		printf("ÎÄ¼þ´íÎó\n");
-		fclose(fin);
 		return 0;
 	}
 	fclose(fin);
